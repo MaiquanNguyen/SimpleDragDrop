@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC40CCE418BF29850013A9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC40CCE318BF29850013A9CF /* Foundation.framework */; };
+		DC40CCE618BF29850013A9CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC40CCE518BF29850013A9CF /* CoreGraphics.framework */; };
+		DC40CCE818BF29850013A9CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC40CCE718BF29850013A9CF /* UIKit.framework */; };
+		DC40CCEE18BF29850013A9CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC40CCEC18BF29850013A9CF /* InfoPlist.strings */; };
+		DC40CCF018BF29850013A9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40CCEF18BF29850013A9CF /* main.m */; };
+		DC40CCF418BF29850013A9CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40CCF318BF29850013A9CF /* AppDelegate.m */; };
+		DC40CCF618BF29850013A9CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC40CCF518BF29850013A9CF /* Images.xcassets */; };
+		DC40CCFD18BF29850013A9CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC40CCFC18BF29850013A9CF /* XCTest.framework */; };
+		DC40CCFE18BF29850013A9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC40CCE318BF29850013A9CF /* Foundation.framework */; };
+		DC40CCFF18BF29850013A9CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC40CCE718BF29850013A9CF /* UIKit.framework */; };
+		DC40CD0718BF29850013A9CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC40CD0518BF29850013A9CF /* InfoPlist.strings */; };
+		DC40CD0918BF29850013A9CF /* SimpleDragDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40CD0818BF29850013A9CF /* SimpleDragDropTests.m */; };
+		DC40CD1418BF299F0013A9CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40CD1318BF299F0013A9CF /* ViewController.m */; };
+		DC40CD1C18BF2A880013A9CF /* DraggableControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40CD1B18BF2A880013A9CF /* DraggableControlsView.m */; };
+		DC40CD1F18BF2B1E0013A9CF /* DraggableControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40CD1E18BF2B1E0013A9CF /* DraggableControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC40CD0018BF29850013A9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC40CCD818BF29850013A9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC40CCDF18BF29850013A9CF;
+			remoteInfo = SimpleDragDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC40CCE018BF29850013A9CF /* SimpleDragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC40CCE318BF29850013A9CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC40CCE518BF29850013A9CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC40CCE718BF29850013A9CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC40CCEB18BF29850013A9CF /* SimpleDragDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleDragDrop-Info.plist"; sourceTree = "<group>"; };
+		DC40CCED18BF29850013A9CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC40CCEF18BF29850013A9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC40CCF118BF29850013A9CF /* SimpleDragDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleDragDrop-Prefix.pch"; sourceTree = "<group>"; };
+		DC40CCF218BF29850013A9CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC40CCF318BF29850013A9CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC40CCF518BF29850013A9CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC40CCFB18BF29850013A9CF /* SimpleDragDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDragDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC40CCFC18BF29850013A9CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC40CD0418BF29850013A9CF /* SimpleDragDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleDragDropTests-Info.plist"; sourceTree = "<group>"; };
+		DC40CD0618BF29850013A9CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC40CD0818BF29850013A9CF /* SimpleDragDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDragDropTests.m; sourceTree = "<group>"; };
+		DC40CD1218BF299F0013A9CF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC40CD1318BF299F0013A9CF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC40CD1A18BF2A880013A9CF /* DraggableControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableControlsView.h; sourceTree = "<group>"; };
+		DC40CD1B18BF2A880013A9CF /* DraggableControlsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableControlsView.m; sourceTree = "<group>"; };
+		DC40CD1D18BF2B1E0013A9CF /* DraggableControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableControl.h; sourceTree = "<group>"; };
+		DC40CD1E18BF2B1E0013A9CF /* DraggableControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC40CCDD18BF29850013A9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40CCE618BF29850013A9CF /* CoreGraphics.framework in Frameworks */,
+				DC40CCE818BF29850013A9CF /* UIKit.framework in Frameworks */,
+				DC40CCE418BF29850013A9CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC40CCF818BF29850013A9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40CCFD18BF29850013A9CF /* XCTest.framework in Frameworks */,
+				DC40CCFF18BF29850013A9CF /* UIKit.framework in Frameworks */,
+				DC40CCFE18BF29850013A9CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC40CCD718BF29850013A9CF = {
+			isa = PBXGroup;
+			children = (
+				DC40CCE918BF29850013A9CF /* SimpleDragDrop */,
+				DC40CD0218BF29850013A9CF /* SimpleDragDropTests */,
+				DC40CCE218BF29850013A9CF /* Frameworks */,
+				DC40CCE118BF29850013A9CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC40CCE118BF29850013A9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC40CCE018BF29850013A9CF /* SimpleDragDrop.app */,
+				DC40CCFB18BF29850013A9CF /* SimpleDragDropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC40CCE218BF29850013A9CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC40CCE318BF29850013A9CF /* Foundation.framework */,
+				DC40CCE518BF29850013A9CF /* CoreGraphics.framework */,
+				DC40CCE718BF29850013A9CF /* UIKit.framework */,
+				DC40CCFC18BF29850013A9CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC40CCE918BF29850013A9CF /* SimpleDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				DC40CCF218BF29850013A9CF /* AppDelegate.h */,
+				DC40CCF318BF29850013A9CF /* AppDelegate.m */,
+				DC40CCF518BF29850013A9CF /* Images.xcassets */,
+				DC40CCEA18BF29850013A9CF /* Supporting Files */,
+				DC40CD1218BF299F0013A9CF /* ViewController.h */,
+				DC40CD1318BF299F0013A9CF /* ViewController.m */,
+				DC40CD1A18BF2A880013A9CF /* DraggableControlsView.h */,
+				DC40CD1B18BF2A880013A9CF /* DraggableControlsView.m */,
+				DC40CD1D18BF2B1E0013A9CF /* DraggableControl.h */,
+				DC40CD1E18BF2B1E0013A9CF /* DraggableControl.m */,
+			);
+			path = SimpleDragDrop;
+			sourceTree = "<group>";
+		};
+		DC40CCEA18BF29850013A9CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC40CCEB18BF29850013A9CF /* SimpleDragDrop-Info.plist */,
+				DC40CCEC18BF29850013A9CF /* InfoPlist.strings */,
+				DC40CCEF18BF29850013A9CF /* main.m */,
+				DC40CCF118BF29850013A9CF /* SimpleDragDrop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC40CD0218BF29850013A9CF /* SimpleDragDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC40CD0818BF29850013A9CF /* SimpleDragDropTests.m */,
+				DC40CD0318BF29850013A9CF /* Supporting Files */,
+			);
+			path = SimpleDragDropTests;
+			sourceTree = "<group>";
+		};
+		DC40CD0318BF29850013A9CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC40CD0418BF29850013A9CF /* SimpleDragDropTests-Info.plist */,
+				DC40CD0518BF29850013A9CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC40CCDF18BF29850013A9CF /* SimpleDragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC40CD0C18BF29850013A9CF /* Build configuration list for PBXNativeTarget "SimpleDragDrop" */;
+			buildPhases = (
+				DC40CCDC18BF29850013A9CF /* Sources */,
+				DC40CCDD18BF29850013A9CF /* Frameworks */,
+				DC40CCDE18BF29850013A9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDragDrop;
+			productName = SimpleDragDrop;
+			productReference = DC40CCE018BF29850013A9CF /* SimpleDragDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC40CCFA18BF29850013A9CF /* SimpleDragDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC40CD0F18BF29850013A9CF /* Build configuration list for PBXNativeTarget "SimpleDragDropTests" */;
+			buildPhases = (
+				DC40CCF718BF29850013A9CF /* Sources */,
+				DC40CCF818BF29850013A9CF /* Frameworks */,
+				DC40CCF918BF29850013A9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC40CD0118BF29850013A9CF /* PBXTargetDependency */,
+			);
+			name = SimpleDragDropTests;
+			productName = SimpleDragDropTests;
+			productReference = DC40CCFB18BF29850013A9CF /* SimpleDragDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC40CCD818BF29850013A9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nguyen Mai Quan";
+				TargetAttributes = {
+					DC40CCFA18BF29850013A9CF = {
+						TestTargetID = DC40CCDF18BF29850013A9CF;
+					};
+				};
+			};
+			buildConfigurationList = DC40CCDB18BF29850013A9CF /* Build configuration list for PBXProject "SimpleDragDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC40CCD718BF29850013A9CF;
+			productRefGroup = DC40CCE118BF29850013A9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC40CCDF18BF29850013A9CF /* SimpleDragDrop */,
+				DC40CCFA18BF29850013A9CF /* SimpleDragDropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC40CCDE18BF29850013A9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40CCEE18BF29850013A9CF /* InfoPlist.strings in Resources */,
+				DC40CCF618BF29850013A9CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC40CCF918BF29850013A9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40CD0718BF29850013A9CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC40CCDC18BF29850013A9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40CD1418BF299F0013A9CF /* ViewController.m in Sources */,
+				DC40CCF418BF29850013A9CF /* AppDelegate.m in Sources */,
+				DC40CD1C18BF2A880013A9CF /* DraggableControlsView.m in Sources */,
+				DC40CCF018BF29850013A9CF /* main.m in Sources */,
+				DC40CD1F18BF2B1E0013A9CF /* DraggableControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC40CCF718BF29850013A9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40CD0918BF29850013A9CF /* SimpleDragDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC40CD0118BF29850013A9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC40CCDF18BF29850013A9CF /* SimpleDragDrop */;
+			targetProxy = DC40CD0018BF29850013A9CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC40CCEC18BF29850013A9CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC40CCED18BF29850013A9CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC40CD0518BF29850013A9CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC40CD0618BF29850013A9CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC40CD0A18BF29850013A9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC40CD0B18BF29850013A9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC40CD0D18BF29850013A9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragDrop/SimpleDragDrop-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDragDrop/SimpleDragDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC40CD0E18BF29850013A9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragDrop/SimpleDragDrop-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDragDrop/SimpleDragDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC40CD1018BF29850013A9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleDragDrop.app/SimpleDragDrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragDrop/SimpleDragDrop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleDragDropTests/SimpleDragDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC40CD1118BF29850013A9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleDragDrop.app/SimpleDragDrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragDrop/SimpleDragDrop-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDragDropTests/SimpleDragDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC40CCDB18BF29850013A9CF /* Build configuration list for PBXProject "SimpleDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC40CD0A18BF29850013A9CF /* Debug */,
+				DC40CD0B18BF29850013A9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC40CD0C18BF29850013A9CF /* Build configuration list for PBXNativeTarget "SimpleDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC40CD0D18BF29850013A9CF /* Debug */,
+				DC40CD0E18BF29850013A9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC40CD0F18BF29850013A9CF /* Build configuration list for PBXNativeTarget "SimpleDragDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC40CD1018BF29850013A9CF /* Debug */,
+				DC40CD1118BF29850013A9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC40CCD818BF29850013A9CF /* Project object */;
+}
